@@ -6,20 +6,20 @@ Dockerビルド
 
 　1.git clone git@github.com:maikoshimotori/contact-form.git
 
-  2.DockerDesktopアプリを立ち上げる
+　2.DockerDesktopアプリを立ち上げる
   
 　3.docker-compose up -d build
 
 Laravel環境構築
 　
 
-  1.docker-compose exec php bash
+　1.docker-compose exec php bash
   
 　2.composer install
   
 　3.「.env.example」ファイルを「.env」ファイルに命名を変更。又は、「.env」ファイルを作成する
 
-  4..env以下の環境変数を追加
+　4..env以下の環境変数を追加
 
     DB_CONNECTION=mysql
     
@@ -33,7 +33,7 @@ Laravel環境構築
     
     DB_PASSWORD=laravel_pass
  
-  5.アプリケーションキーの作成
+　5.アプリケーションキーの作成
   
   　php artisan key:generate
 
